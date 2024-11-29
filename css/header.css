@@ -1,0 +1,30 @@
+.header {
+  background: white;
+  padding: 10px 5px;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+}
+
+.nav {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__ul {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.nav__link {
+  font-size: 14px;
+  color: var(--primary-font);
+}
+
+.nav__link--active {
+  font-weight: bolder;
+}
